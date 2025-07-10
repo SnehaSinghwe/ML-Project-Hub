@@ -73,4 +73,4 @@ This model serves as a compassionate assistant — detecting the unseen, the unh
 
 ## 💻 How to Run
 git clone https://github.com/SnehaSinghwe/ML-Project-Hub/tree/main/Parkinson%20diesease
-cd parkinsons-disease-detector
+cd Parkinsons-Disease-Prediction_using_Machine_Learning.ipynb
