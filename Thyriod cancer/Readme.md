@@ -73,4 +73,4 @@ Thyroid cancer is often treatable if caught early, but its symptoms are subtle a
 
 ## ⚙ How to Run
 git clone https://github.com/SnehaSinghwe/ML-Project-Hub/tree/main/Thyriod%20cancer
-cd thyroid-cancer-detection
+cd Thyroid_cancer.ipynb
