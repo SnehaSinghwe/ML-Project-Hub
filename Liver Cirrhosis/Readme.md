@@ -88,5 +88,5 @@ Output: Stage classification (0, 1, or 2)
 ---
 
 ## ⚙ How to Run
-git clone https://github.com/your-username/liver-cirrhosis-detector.git
+git clone https://github.com/SnehaSinghwe/ML-Project-Hub/tree/main/Liver%20Cirrhosis
 cd Liver_cirrhosis.ipynb
