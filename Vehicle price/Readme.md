@@ -93,5 +93,5 @@ The goal is to minimize prediction error and provide accurate price estimates ba
 ---
 
 ## ⚙ How to Run
-git clone https://github.com/yourusername/vehicle-price-prediction.git
+git clone https://github.com/SnehaSinghwe/ML-Project-Hub/tree/main/Vehicle%20price
 cd Vehicle_price_prediction.ipynb
