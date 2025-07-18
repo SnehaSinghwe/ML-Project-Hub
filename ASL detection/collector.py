@@ -7,7 +7,7 @@ import string
 
 # ====== CONFIGURATION ======
 SAMPLES_PER_LETTER = 200
-OUTPUT_DIR = "Unified_mentor/new_ASL/asl_landmark_data"
+OUTPUT_DIR = "asl_landmark_data"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ====== SETUP ======
