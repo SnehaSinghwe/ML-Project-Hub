@@ -3,8 +3,8 @@ import mediapipe as mp
 import numpy as np
 import joblib
 
-model = joblib.load("Unified_mentor/new_ASL/asl_mlp_model.pkl")
-label_encoder = joblib.load("Unified_mentor/new_ASL/label_encoder.pkl")
+model = joblib.load("asl_mlp_model.pkl")
+label_encoder = joblib.load("label_encoder.pkl")
 
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(static_image_mode=False, max_num_hands=1)
