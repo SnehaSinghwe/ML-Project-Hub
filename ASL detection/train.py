@@ -8,7 +8,7 @@ import joblib
 import glob
 
 # Load all CSV files
-files = glob.glob("Unified_mentor/new_ASL/asl_landmark_data/landmarks_*.csv")
+files = glob.glob("asl_landmark_data/landmarks_*.csv")
 data = pd.concat([pd.read_csv(f, header=None) for f in files], axis=0)
 
 # Separate features and labels
@@ -31,6 +31,6 @@ y_pred = model.predict(X_test)
 print(classification_report(y_test, y_pred, target_names=le.classes_))
 
 # Save model and encoder
-joblib.dump(model, "Unified_mentor/new_ASL/asl_mlp_model.pkl")
-joblib.dump(le, "Unified_mentor/new_ASL/label_encoder.pkl")
+joblib.dump(model, "asl_mlp_model.pkl")
+joblib.dump(le, "label_encoder.pkl")
 print("[INFO] Model and label encoder saved.")
