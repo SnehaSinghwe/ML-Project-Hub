@@ -1,25 +1,19 @@
-# 📱 Mobile Phone Price Prediction using Machine Learning
+# Mobile Phone Price Prediction using Machine Learning
+“Every feature tells a story — of power, pixels, and price. This model reads those stories to reveal the value behind the glass.”
 
-> “Every feature tells a story — of power, pixels, and price. This model reads those stories to reveal the value behind the glass.”
-
-## 📌 Project Overview
-
+## Project Overview
 This project predicts the price *range of mobile phones* based on their technical specifications using classification and regression models. The goal is to help customers, retailers, or manufacturers understand how features translate into pricing tiers.
-
 It can also serve as a recommendation system backend or market analysis tool for budget segmentation.
 
-## 🎯 Problem Statement
-
+## Problem Statement
 Given mobile phone specifications like RAM, processor speed, battery capacity, and more, predict the *price range* it falls into:
 - 0: Low cost
 - 1: Medium cost
 - 2: High cost
 - 3: Premium
+Alternatively, this can also be modeled as a regression problem to predict the exact price.
 
-> Alternatively, this can also be modeled as a regression problem to predict the exact price.
-
-## 📊 Dataset Overview
-
+## Dataset Overview
 - *Source*: A local copy of the dataset is included in this repository for convenience.
 - *Samples*: 2,000+ records
 - *Target Variable*: price_range (0 to 3)
@@ -38,19 +32,18 @@ Given mobile phone specifications like RAM, processor speed, battery capacity, a
 | talk_time      | Talk time in hours                 |
 | wifi, bluetooth, etc. | Boolean features             |
 
-## 🧠 ML Workflow
-
-### 🛠 1. Data Preprocessing
+## ML Workflow
+### 1. Data Preprocessing
 - Feature normalization (StandardScaler/MinMax)
 - Feature selection via correlation/importance
 - Handling multicollinearity (if needed)
 
-### 🔍 2. Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 - Price vs RAM/Storage correlation
 - Heatmaps and KDE plots
 - Feature importance ranking
 
-### 🤖 3. Models Trained
+### 3. Models Trained
 - Logistic Regression
 - Random Forest Classifier
 - Decision Tree
@@ -58,13 +51,13 @@ Given mobile phone specifications like RAM, processor speed, battery capacity, a
 - XGBoost / LightGBM
 - Optional: Linear Regression or SVR (for continuous price)
 
-### 📏 4. Evaluation Metrics
+### 4. Evaluation Metrics
 - Accuracy, Precision, Recall, F1-Score
 - Confusion Matrix
 - ROC-AUC Curve (for binary splits)
 - R² and RMSE (if using regression)
 
-## 📈 Results Snapshot
+## Results Snapshot
 
 | Model              | Accuracy |
 |-------------------|----------|
@@ -73,6 +66,6 @@ Given mobile phone specifications like RAM, processor speed, battery capacity, a
 | XGBoost             | 93%     |
 | KNN                 | 85%     |
 
-## 💻 How to Run
+## How to Run
 git clone https://github.com/SnehaSinghwe/ML-Project-Hub/tree/main/Mobile%20phone%20pricing
 cd Mobile_price_pricing.ipynb
