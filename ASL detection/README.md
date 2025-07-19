@@ -30,9 +30,13 @@ This project uses *MediaPipe* to detect 21 hand landmarks and a *Multi-Layer Per
 ## Project Structure
 
 ASL-Detection/
+
 ├── data_collection.py # Script to record hand gesture data
+
 ├── model_training.py # Script to train MLPClassifier on collected data
+
 ├── asl_detector.py # Real-time ASL recognition from webcam
+
 └── README.md 
 
 ## Clone the repository and install the dependencies:
