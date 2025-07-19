@@ -27,7 +27,7 @@ This project uses *MediaPipe* to detect 21 hand landmarks and a *Multi-Layer Per
 | *Scikit-learn*          | MLPClassifier for model training          |
 | *Pandas / NumPy* | Data preprocessing and manipulation |
 
-## 📂 Project Structure
+## Project Structure
 
 ASL-Detection/
 ├── data_collection.py # Script to record hand gesture data
@@ -38,7 +38,7 @@ ASL-Detection/
 ## Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/ASL detection.git
+git clone https://github.com/SnehaSinghwe/ASL detection.git
 cd ASL detection
 
 ## Collect Hand Gesture Data
